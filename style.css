@@ -1,0 +1,97 @@
+
+
+.text{
+    color:white;
+    font-size:40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow';
+    z-index: 1;
+}
+
+
+
+li a{
+    text-decoration: none;
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+}
+/* nav-logo */
+.logo{
+
+    width:80px;
+}
+
+
+span{
+    width:50px;
+
+}
+
+/* footer */
+
+.footer-text {
+    padding: 20px ;
+}
+
+.icon{
+
+    width:20px;
+    }
+
+/* Home page button */
+.btn{
+    position: absolute;
+    bottom:50%;
+    left:47%;
+    border-radius: 0;
+    color:white;
+    background:rgb(250, 82, 21);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding:10px;
+   
+}
+.btn:hover{
+    background-color: transparent;
+    color:rgb(250, 82, 21);
+    border:1px solid rgb(250, 82, 21) ;
+}
+svg{
+    color:white;
+}
+
+
+
+  
+/* Home page button media querry*/
+  
+@media  (max-width:768px) {
+   
+    .btn{
+        left:44%;
+    }
+  }
+
+  @media(max-width:425px) {
+   
+    .btn{
+        left:39%;
+    }
+  }
+
+
+  @media (max-width:365px) {
+  
+    .btn{
+        left:37%;
+
+    }
+
+   
+  }
+
+  
+
+  
+ 
